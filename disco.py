@@ -7,12 +7,7 @@ Created on Tue Jul 14 23:53:41 2020
 
 
 import discord 
-# elmamot
-# bot: elmamotbot
-# server : https://discord.gg/8HrCPZ
-# CLIENT ID: 732680018450186260
-# TOKEN :  NzMyNjgwMDE4NDUwMTg2MjYw.Xw4JPw.QiU1S8odX4gzAv-GWvWmbP3nplk
-'''
+
 Adding a Bot to a Guild
 A bot can’t accept invites like a normal user can. Instead, you’ll add your bot using the OAuth2 protocol.
 
@@ -35,4 +30,4 @@ async def on_message(message):
     if message.content.startswith('$hello'):
         await message.channel.send('mamad dadashemone!')
 
-client.run('NzMyNjgwMDE4NDUwMTg2MjYw.Xw4JPw.QiU1S8odX4gzAv-GWvWmbP3nplk')
+client.run()
